@@ -1,0 +1,275 @@
+.nav-brand{
+    width:250px;
+    height:120px;
+    font-style:15px;
+    
+
+}
+.nav-brand img {
+padding:28px 45px 100px 30px;
+width:70%;
+height:50%;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav col-2{
+font-size:20px;
+}
+.nav ul {
+    display:flex;
+    justify-content:center;  
+    list-style:none;   
+}
+.nav ul li a {
+    padding:0px 35px;
+    text-decoration: none;
+    color:black;
+}
+
+.service-heading {
+    text-align:center;
+
+}
+.service-heading h1 {
+    color:#8C68BB;
+    font-size: 40px;
+}
+
+
+.social ul{
+    margin: 7px;
+    list-style:none;
+    font-size:33px;
+
+    
+}
+.service-item{
+margin: 50px;
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+
+
+}
+
+.service-item h2 i{
+margin-right:15px;
+font-size:40px;
+}
+.service-action{
+text-align: center;
+}
+
+.service-action button{
+border: none;
+outline: none;
+padding: 10px 20px;
+background: #0b418b;
+color: white;
+border-radius: 5px;
+}
+
+.testimonials-header{
+    height: 66px;
+    width: 483px;
+    padding: 46px;
+    font-family:PT Sans,Helvetica,Arial,sans-serif;
+    font-family:sans-serif;
+    font-size: 23px;
+    }
+
+
+.testimonials-header h1{
+color: #8C68BB
+} 
+
+.testimonials-item-content{
+   
+    height:220px;
+    width:650px;
+    margin:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.testimonials-img{
+  display:flex;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+<!--testimonial-->
+.container-sld{
+    border:1px solid gray;
+}
+.slide{
+height:250px;
+padding:200px 120px;
+background-image:url(../img/12.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-position: center;
+}
+.slide-content{
+    max-width: 300px;
+    padding-left:35px;
+}
+.slide-content h1{
+    text-align:center;
+    color:white;
+    font-size:150px;
+    font-weight:2000px;
+  
+}
+.request{
+    display:flex;
+    border: 1px solid gray;
+    height: 95px;
+    width:365px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.events{
+    border: 1px solid gray;
+    height: 95px;
+    width:300px;
+    margin:0 px;
+    padding:0px;
+}
+.phone{
+    border: 1px solid gray;
+    width:585px;
+    height: 95px;
+    margin:0px;
+    display: flex;
+    padding:0px;
+}
+.phone button{
+    display:flex;
+    background:#8C68BB;
+    width:200px;
+    height: 56px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 35px;
+    text-align:center;
+}
+.col-item{
+    color:#8C68BB;
+    padding-left:15px;
+    
+}
+}
+.name1 h1{
+    color:white;
+    padding:44px 65px;
+    
+   
+}
+.name2 h1{
+    color:white;
+    padding:44px 65px;  
+    display: flex;
+}
+.name3 h1{
+    color:white;
+    padding:44px 65px;
+    
+   
+}
+.name4 h1{
+    color:white;
+    padding:44px 65px;
+    
+   
+}
+
+.name1{
+    background-image:url(../img/married.jpg);
+    height:175px;
+    width:285px; 
+}
+.name2{
+    height:175px;
+    width:285px; 
+    background-image:url(../img/engagement.jpg)
+}
+.name3{
+    height:175px;
+    width:285px; 
+background-image: url(../img/party.jpg);
+}
+.name4{
+    height:175px;
+    width:285px; 
+    background-image:url(../img/birthday.jpg);
+}
+.team{
+    margin: 48px;
+    width: 500px;
+    height: 130px;
+font-size: 20px;
+}
+.team h1{
+    color: #8C68BB;
+}
+.person{
+    display: flex;
+    
+}
+.person1{
+    height: 300px;
+    width: 235px;
+    margin: 25px;
+text-align: center;
+}
+.person2{
+    height: 300px;
+    width: 235px;
+    margin: 25px;
+    text-align: center;
+}
+.person3{
+    height: 300px;
+    width: 235px;
+    margin: 25px;
+    text-align: center;
+}
+.person1 h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.person2 h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.person3 h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+.person h3{
+   color: #8C68BB 
+}
+.person h2{
+    font-style:italic;
+
+}
+.container-price{
+    width: 1262px;
+    height: 750px;
+    background-image:url(../img/price.jpg);
+}
+.price{
+    text-align: center;
+    color:#8C68BB  ;
+}
+
+.prices{
+    border: 1px solid gray;
+    display: flex;
+    margin: 46px; ;
+    max-width: 1174px;
+}
