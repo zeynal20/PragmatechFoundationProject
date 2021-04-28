@@ -29,6 +29,7 @@ font-size:20px;
 
 .service-heading {
     text-align:center;
+    margin-top:150px ;
 
 }
 .service-heading h1 {
@@ -92,10 +93,29 @@ color: #8C68BB
     font-family: 'Montserrat', sans-serif;
 }
 .testimonials-img{
-  display:flex;
-    height: 100px;
-    width: 100px;
-    box-sizing: border-box;
+    display:flex;
+      height: 100px;
+      width: 100px;
+      
+}
+.testimonials-imgs{
+    display:flex;
+}
+.testimonials1{
+    display: flex;
+  
+    
+
+}
+.testimonials2{
+    display: flex;
+    
+
+
+}
+.testimonials3{
+    display:flex;
+
 }
 <!--testimonial-->
 .container-sld{
@@ -129,6 +149,7 @@ background-position: center;
     box-sizing: border-box;
     
 }
+
 .events{
     border: 1px solid gray;
     height: 95px;
@@ -161,27 +182,27 @@ background-position: center;
     padding-left:15px;
     
 }
-}
+
 .name1 h1{
     color:white;
-    padding:44px 65px;
+    padding:63px 65px;
     
    
 }
 .name2 h1{
     color:white;
-    padding:44px 65px;  
+    padding:63px 65px;  
     display: flex;
 }
 .name3 h1{
     color:white;
-    padding:44px 65px;
+    padding:69px 105px;
     
    
 }
 .name4 h1{
     color:white;
-    padding:44px 65px;
+    padding:69px 80px;
     
    
 }
@@ -190,21 +211,29 @@ background-position: center;
     background-image:url(../img/married.jpg);
     height:175px;
     width:285px; 
+    margin:10px;
+    border-radius:10px;
 }
 .name2{
     height:175px;
     width:285px; 
-    background-image:url(../img/engagement.jpg)
+    background-image:url(../img/engagement.jpg);
+    margin:10px;
+    border-radius:10px;
 }
 .name3{
     height:175px;
     width:285px; 
-background-image: url(../img/party.jpg);
+    background-image: url(../img/party.jpg);
+    margin:10px;
+    border-radius:10px;
 }
 .name4{
     height:175px;
     width:285px; 
     background-image:url(../img/birthday.jpg);
+    margin:10px;
+    border-radius:10px;
 }
 .team{
     margin: 48px;
@@ -268,8 +297,89 @@ text-align: center;
 }
 
 .prices{
-    border: 1px solid gray;
-    display: flex;
-    margin: 46px; ;
-    max-width: 1174px;
+    display:flex;
+    margin:46px; ;
+    max-width:1174px;
+}
+.items{
+    display:flex;
+    margin:25px;
+    max-width:1245px;
+}
+.image{
+    width: 1250px;
+    height:609px;
+    background-image:
+        url(../img/333.jpg);
+        background-size:cover;
+    background-position: center;
+     }
+
+.image1 h1{
+    font-size:100px;
+    color:#8C68BB;
+    font-style:italic;
+}
+.image1{
+    margin-left:150px;
+    margin-bottom:55px;
+}
+.image1 h2{
+font-size:35px;
+margin:25px 0px;
+}
+.image1 button{
+    border-radius:30px;
+    background-color:#8C68BB;
+    width:200px;
+    height:65px;
+    margin: 25px 0px;
+}
+.image1 button h3{
+    font-size:20px;
+    color:white;
+}
+.container-pro{
+    height:360px;
+    width:1260px;
+    
+}
+.project1{
+    width:305px;
+    height:280px;
+    margin:10px;
+    background-image:url(../img/pro1.jpg);
+    background-size:cover;
+background-position: center;
+}
+.project2{
+    width:305px;
+    height:280px;
+    margin:10px;
+    background-image:url(../img/pro2.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.project3{
+    width: 305px;
+    height:280px;
+    margin:10px;
+    background-image:url(../img/pro3.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.project4{
+    width: 305px;
+    height:280px;
+    margin:10px;
+    background-image:url(../img/pro4.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.pro-name{
+color: #8C68BB;
+text-align:center;
+}
+.pro-name h1{
+    font-size:50px
 }
