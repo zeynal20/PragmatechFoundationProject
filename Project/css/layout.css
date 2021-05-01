@@ -9,13 +9,22 @@ ul{
     width:100%;
 }
 .container{
-    width: 1200px;   
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+        margin-left: auto;
+    
+}
+.container-pr{
+    height: 750px;
 }
 
 .row{
 display:flex;
 justify-content: space-between;
 align-items: center;
+font-family:'montserrat';
 }
 .col-1{
     width:calc((100%/12)*1);
