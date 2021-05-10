@@ -415,33 +415,29 @@ margin:25px 0px;
     width:305px;
     height:280px;
     margin:10px;
-    background-image:url(../img/pro1.jpg);
     background-size:cover;
-background-position: center;
+
 }
 .project2{
     width:305px;
     height:280px;
     margin:10px;
-    background-image:url(../img/pro2.jpg);
     background-size:cover;
-    background-position: center;
+background: url(../img/pro2.jpg);
 }
 .project3{
     width: 305px;
     height:280px;
     margin:10px;
-    background-image:url(../img/pro3.jpg);
     background-size:cover;
-    background-position: center;
+    
 }
 .project4{
     width: 305px;
     height:280px;
-    margin:10px;
-    background-image:url(../img/pro4.jpg);
+    margin:10px; 
     background-size:cover;
-    background-position: center;
+    
 }
 .pro-name{
 color: #8C68BB;
@@ -471,10 +467,7 @@ color:white;
     background:#8C68BB ;
     transition: all 1s ease;
 }
-.container-pro .project1:hover{
-    background: #8C68BB;
- opacity: 0.5;
-}
+
 .container-fd button:hover{
     background:white ;
     transition: all 0.5 ease;
@@ -499,4 +492,24 @@ font-family:'montserrat';
 }
 .container-cart:hover .cartbutton{
     display:block;
-    }
+}
+.none1{
+    width: 305px;
+    height:280px;
+    background:#8C68BB;
+    opacity:0.5;
+    position:absolute;
+    padding:5px;
+    margin:10px;
+    color:white;
+   
+    font-family:'montserrat';
+    display: none;
+}
+.container-pro :hover .none1{
+    display: block;
+    
+}
+
+
+
