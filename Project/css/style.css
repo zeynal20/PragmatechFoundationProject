@@ -1,80 +1,209 @@
-.nav-brand{
-    width:250px;
-    height:120px;
-    font-style:15px;
-    
-
-}
-.nav-brand img {
-padding:28px 45px 100px 30px;
-width:70%;
-height:50%;
-}
-.nav{
-    font-family: 'Montserrat', sans-serif;
-}
-.nav col-2{
-font-size:20px;
-}
-.nav ul {
-    display:flex;
-    justify-content:center;  
-    list-style:none;   
-}
-.nav ul li a {
-    padding:0px 35px;
+.nav-brand {
+    width: 250px;
+    height: 120px;
+    font-style: 15px;
+  }
+  .nav-brand img {
+    padding: 28px 45px 100px 30px;
+    width: 70%;
+    height: 50%;
+  }
+  .nav {
+    font-family: "Montserrat", sans-serif;
+  }
+  .nav col-2 {
+    font-size: 20px;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .nav ul li a {
+    padding: 0px 35px;
     text-decoration: none;
-    color:black;
-}
-
-.service-heading {
-    text-align:center;
-    margin-top:150px ;
-
-}
-.service-heading h1 {
-    color:#8C68BB;
+    color: black;
+  }
+  
+  .service-heading {
+    text-align: center;
+    margin-top: 150px;
+  }
+  .service-heading h1 {
+    color: #8c68bb;
     font-size: 40px;
-}
-
-.slider{
+  }
+  
+  .slider {
     position: relative;
-   
-}
-.social{
+  }
+  .social {
     position: absolute;
-    left: 10px;
-    
-}
-.myrou{
-    justify-content:center
-}
-.social ul{
+    left: 0px;
+  }
+  .social i {
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .myrou {
+    justify-content: center;
+  }
+  .social ul {
     margin: 7px;
-    list-style:none;
-    font-size:33px;
-
+    list-style: none;
+    font-size: 33px;
+  }
+  .social ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .instagram-toggle{
+background-color: white;
+color: black;
+border-radius: 30px;
+box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+min-width: 124px;
+width: auto;
+height:60px;
+display: none;
+font-size: 13px;
+transition: 0.3s ease;
+  }
+  .social ul li i:hover .instagram-toggle{
+    display: block;
     
-}
-.service-item{
-margin: 50px;
-padding: 10px;
-border-radius: 10px;
-text-align: center;
+  }
+  .instagram-toggle p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px 5px 47px;
 
-}
-.service-item h2 i{
+  }
+  .service-item {
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .service-item h2 {
+    display: flex;
+    align-items: center;
+  }
+  .service-item h2 i {
     border-radius: 5px;
-    margin-right: 15px;
+    margin-right: 25px;
     font-size: 40px;
     padding: 20px;
     box-shadow: 0px 4px 3px 5px #88888829;
-    color: #8C68BB;
-}
-.service-action{
-text-align: center;
-}
-
+    color: #8c68bb;
+  }
+  .service-action {
+    text-align: center;
+  }
+  .service-item p {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .slide{
+    height:250px;
+    padding:200px 120px;
+    background-image:url(../img/12.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+        align-items: center;
+    }
+    .slide-content{
+        width: 100%;
+        
+    }
+    .slide-content h1{
+        text-align:center;
+    
+        color:white;
+        font-size:72px;
+        font-weight:2000px;
+      
+    }
+    #second {
+        margin: auto;
+      }
+      .request1 {
+        display: flex;
+        border: 1px solid #c4c4c4;
+        border-right: none;
+        margin: 0px;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 30px 30px;
+      }
+      
+      .request1 button:hover {
+        background-color: white;
+      }
+      .request1 i {
+        color: #c4c4c4;
+      }
+      .request1 h2 {
+        padding: 11px 19px;
+        font-size: 18px;
+      }
+      
+      .events {
+        border: 1px solid #c4c4c4;
+        display: flex;
+        align-items: center;
+        margin: 0 px;
+        padding: 30px 30px;
+        border-right: none;
+      }
+      .events h3 {
+        padding: 11px 19px;
+      }
+      .events i {
+        color: #c4c4c4;
+      }
+      .phone {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding: 30px 30px;
+        border-right: none;
+      }
+      .phone h3 {
+        padding: 11px 19px;
+      }
+      .phone i {
+        color: #c4c4c4;
+      }
+      .send-request {
+        display: flex;
+        background: #8c68bb;
+        width: 200px;
+        border: none;
+        outline: none;
+        padding: 17px 20px;
+        color: white;
+        border-radius: 35px;
+        justify-content: center;
+        text-align: center;
+      }
+      .send-request i {
+        padding-right: 7px;
+      }
+      .col-item {
+        color: #8c68bb;
+        padding-left: 15px;
+        text-align: center;
+      }
+      
 #testimonials{
     display: flex;
     width: 80%;
@@ -131,90 +260,7 @@ color: #8C68BB
 .container-sld{
     border:1px solid gray;
 }
-.slide{
-height:250px;
-padding:200px 120px;
-background-image:url(../img/12.jpg);
-background-size:cover;
-background-repeat:no-repeat;
-background-position: center;
-display: flex;
-    align-items: center;
-}
-.slide-content{
-    width: 100%;
-    
-}
-.slide-content h1{
-    text-align:center;
 
-    color:white;
-    font-size:72px;
-    font-weight:2000px;
-  
-}
-#second{
-    margin: auto;
-}
-.request1{
-    display:flex;
-    border: 1px solid gray;
-    height: 95px;
-    margin:0px;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 30px 0px;
-   
-}
-
-.request1 button:hover{
-    background-color: white;
-}
-.request1 i{
-    color:#c4c4c4;
-}
-.request1 h2{
-    padding: 11px 19px; font-size: 18px;
-}
-
-.events{
-    border: 1px solid gray;
-    height: 95px;
-    width:338px;
-    display: flex;
-    align-items: center;
-    margin:0 px;
-    padding:0px;
-}
-.phone{
-    border: 1px solid gray;
-    width:585px;
-    height: 95px;
-    margin:0px;
-    display: flex;
-    align-items: center;
-    padding:0px;
-}
-.send-request{
-    display:flex;
-    background:#8C68BB;
-    width:200px;
-    border: none;
-    outline: none;
-    padding: 17px 20px;
-    color: white;
-    border-radius: 35px;
-    text-align:center;
-}
-.send-request i{
-    padding-right: 7px;
-}
-.col-item{
-    color:#8C68BB;
-    padding-left:15px;
-    text-align: center;
-    
-}
 
 .name1 h1{
     color:white;
@@ -415,6 +461,7 @@ margin:25px 0px;
     width:305px;
     height:280px;
     margin:10px;
+    background:url(../img/pro1.jpg);
     background-size:cover;
 
 }
@@ -430,14 +477,14 @@ background: url(../img/pro2.jpg);
     height:280px;
     margin:10px;
     background-size:cover;
-    
+    background: url(../img/pro3.jpg);
 }
 .project4{
     width: 305px;
     height:280px;
     margin:10px; 
     background-size:cover;
-    
+    background: url(../img/pro4.jpg);
 }
 .pro-name{
 color: #8C68BB;
@@ -494,22 +541,58 @@ font-family:'montserrat';
     display:block;
 }
 .none1{
-    width: 305px;
-    height:280px;
-    background:#8C68BB;
-    opacity:0.5;
-    position:absolute;
-    padding:5px;
-    margin:10px;
-    color:white;
-   
-    font-family:'montserrat';
+    background:#8C68BB ;
+    opacity:0.7;
+    width: 100%;
+    height:100%;
     display: none;
+    font-family:'montserrat';
 }
-.container-pro :hover .none1{
+.project1:hover .none1{
     display: block;
-    
 }
 
 
-
+.none2{
+    background:#8C68BB ;
+    opacity:0.7;
+    width: 100%;
+    height:100%;
+    display: none;
+    font-family:'montserrat';
+}
+.project2:hover .none2{
+    display: block;
+}
+.none3{
+    background:#8C68BB ;
+    opacity:0.7;
+    width: 100%;
+    height:100%;
+    display: none;
+    font-family:'montserrat';
+}
+.project3:hover .none3{
+    display: block;
+}
+.none4{
+    background:#8C68BB ;
+    opacity:0.7;
+    width: 100%;
+    height:100%;
+    display: none;
+    font-family:'montserrat';
+    transition: all .3s ease;
+    transform: scale(1.);
+}
+.project4:hover .none4{
+    display: block;
+}
+.instagram{
+    display: none;
+    transition: all 4s ease;
+}
+.insta:hover .instagram{
+    display: block;
+    transition: all 2s ease;
+}
